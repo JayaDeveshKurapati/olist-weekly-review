@@ -1,0 +1,9 @@
+# Core pipeline uses only the Python standard library (sqlite3, csv, logging).
+# Report + tests:
+pandas>=2.0
+matplotlib>=3.7
+reportlab>=4.0
+pytest>=7.0
+pypdf>=4.0
+# Optional (bonus DAG only) - install separately, it is large:
+#   pip install "apache-airflow>=2.9"

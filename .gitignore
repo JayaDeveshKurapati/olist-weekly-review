@@ -1,0 +1,9 @@
+data/raw/
+data/synthetic/
+db/
+logs/
+outputs/
+__pycache__/
+.pytest_cache/
+*.db
+.venv/
